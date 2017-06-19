@@ -3,18 +3,14 @@
 	Expected output : 2
 */
 
-let q5 = function(string, leter){
-	const str = string || "Nidhi";
-	const letter = leter || "d";
-	var letter_Count = 0;
-	  
-	for (var position = 0; position < str.length; position++){  
-	  if (str.charAt(position) == letter){  
-	    letter_Count += 1;  
-	  }  
-	}
-	// console.log("String is "+str+" & character count for "+letter+" is "+letter_Count);
-	return letter_Count;
+const str = "Nidhi Gupta";
+const letter = "i";
+var letter_Count = 0;
+  
+for (var position = 0; position < str.length; position++){  
+  if (str.charAt(position) == letter){  
+    letter_Count += 1;  
+  }  
 }
-q5();
-module.exports = q5;
+console.log("String is '"+str+"' & character count for "+letter+" is "+letter_Count);
+module.exports =  letter_Count;

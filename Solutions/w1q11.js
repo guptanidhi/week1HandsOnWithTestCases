@@ -16,7 +16,7 @@ let q11 = function(number){
 	  	result = "Palindrome";
 	  }
 	}
-	// console.log(number+" is", result+".");
+	console.log(number+" is", result+".");
 	return result
 }
 q11();
