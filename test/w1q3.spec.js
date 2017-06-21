@@ -1,5 +1,5 @@
 let expect = require('chai').expect;
-let index = require('../Solutions/w1q3');
+let index = require('../output/w1q3');
 
 
 describe('Question 3 - Test code for correct output', function(){
